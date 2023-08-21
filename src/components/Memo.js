@@ -13,7 +13,7 @@ const Memo = () => {
 
     return(<div>
       <input type='text' id='skill-input' value={skill} onChange={(e)=> setSkill(e.target.value)}/>
-      <button onClick={addSkill}>Add Skill</button>
+      <button id='skill-btn' onClick={addSkill}>Add Skill</button>
       {memo.map(item => {
         return (
             <ul>
