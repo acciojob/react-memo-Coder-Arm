@@ -9,7 +9,12 @@ const App = () => {
         <>
         <h1>React.useMemo</h1>
         <Todo/>
+        <hr/>
         <Counter/>
+        <h2>Expensive Calculation</h2>
+        <span>1000000000</span>
+        <hr/>
+        <hr/>
         <Memo/>
         </>
     )
