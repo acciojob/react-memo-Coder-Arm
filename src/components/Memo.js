@@ -17,7 +17,7 @@ const Memo = () => {
       {memo.map(item => {
         return (
             <ul>
-                <li id= {'item-'+}>{item}</li>
+                <li id= {'item-'+item}>{item}</li>
             </ul>
         )
       })}
