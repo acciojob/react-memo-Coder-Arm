@@ -6,7 +6,7 @@ import Memo from './Memo';
 const App = () => {
 
     return(
-        <>
+        <div id='main'>
         <h1>React.useMemo</h1>
         <Todo/>
         <hr/>
@@ -16,7 +16,7 @@ const App = () => {
         <hr/>
         <hr/>
         <Memo/>
-        </>
+        </div>
     )
 
 }

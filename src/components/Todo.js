@@ -8,7 +8,7 @@ const Todo = () => {
     tasks.map(task => {
         return <div>{task}</div>
     })}
-     <button onClick={()=> setTasks([...tasks, "New Todo"])}>Add Todo</button>
+     <button id='add-todo-btn' onClick={()=> setTasks([...tasks, "New Todo"])}>Add Todo</button>
     </>)
 }
 export default Todo
